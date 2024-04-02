@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+
+    &__name {
+        display: flex;
+
+        p {
+            margin: .3rem;
+        }
+    }
+
+
+    &__social {
+        ul {
+            display: flex;
+            list-style: none;
+
+            li {
+                margin: .6rem;
+            }
+
+            li:hover {
+                color: rgb(152, 148, 148);
+            }
+        }
+    }
+}

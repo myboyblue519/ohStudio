@@ -1,0 +1,27 @@
+$color-white: #ffffff;
+$color-black: #000000;
+$color-grey-medium: #7f7f7f;
+$color-grey-light: #e8e5e480;
+
+.skills__list {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    font-size: .8rem;
+
+    ul {
+        margin: 2rem 10rem 2rem 1rem;
+    }
+
+    &--item {
+        // margin-right: 310px;
+        list-style: none;
+
+        &-top {
+            color: $color-grey-medium;
+            line-height: 2rem;
+        }
+
+        // &-bottom {}
+    }
+}

@@ -1,0 +1,22 @@
+.inTouch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem;
+    font-size: 42px;
+    font-family: sans-serif;
+
+
+    &__top {
+        display: block;
+    }
+
+    &__bottom {
+        color: rgb(95, 93, 93);
+    }
+
+    &__bottom:hover {
+        color: rgb(152, 148, 148);
+    }
+}
