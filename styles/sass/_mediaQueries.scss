@@ -45,4 +45,25 @@
         }
 
     }
+
+    .page__header {
+        height: 60vh;
+
+        &--title {
+            font-size: 32px;
+            margin: 8rem 3rem;
+        }
+
+        &--menu {
+            display: none;
+        }
+    }
+
+    .skills__list {
+        flex-direction: column;
+
+        ul {
+            margin: 1rem;
+        }
+    }
 }
