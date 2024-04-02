@@ -143,6 +143,12 @@ body {
   background-color: #ffffff;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
