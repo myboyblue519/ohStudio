@@ -25,4 +25,24 @@
         flex-direction: column;
     }
 
+
+    .inTouch {
+        margin: 3rem 0;
+        font-size: 32px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+
+        &__name {
+            flex-direction: column;
+            text-align: center;
+
+            p {
+                align-items: center;
+            }
+        }
+
+    }
 }
