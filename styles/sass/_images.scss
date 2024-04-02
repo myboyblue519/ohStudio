@@ -2,8 +2,11 @@
     display: flex;
     justify-content: space-around;
 
+
+
+
     &-img {
-        width: 675px;
+        width: 100%;
         border-radius: 5%;
         margin: .5rem;
     }
@@ -22,9 +25,10 @@
     &-vid:hover {
         opacity: .3;
     }
-}
 
 
-.wide {
-    width: 95%;
+
+    .wide {
+        width: 95%;
+    }
 }

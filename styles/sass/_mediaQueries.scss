@@ -1,0 +1,28 @@
+@media (max-width:500px) {
+    .header {
+        height: 50vh;
+
+        &__title {
+
+            &--title {
+                margin: 15.5rem 0.8rem;
+                font-size: 30px;
+
+            }
+
+            &--menu {
+                display: none;
+            }
+
+        }
+
+        &__nav {
+            top: 0.3%;
+        }
+    }
+
+    .image__box {
+        flex-direction: column;
+    }
+
+}
